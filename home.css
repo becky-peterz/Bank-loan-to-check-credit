@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.up {
+    height: 50px;
+    background-color: white;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.flex {
+    display: flex;
+}
+.easy {
+    height: 500px;
+    background-image: url("Images/istockphoto-1348546519-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    position: relative;
+}
+.quick {
+    margin-left: 60px;
+    left:100px;
+    top:180px;
+    position:absolute;
+}
+.logo{
+    font-size: 1rem; 
+    font-weight: bold;
+    color: #DAE56B;
+}
+
+.works {
+    padding-bottom: 60px;
+    
+}
+.how{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.gap{
+    gap:20px;
+    padding:20px
+}
+.quick p{
+    font-size: 1.2rem;
+}
+.get {
+    font-size: 3rem;
+    position:absolute;
+    font-weight: bold;
+    color: #DAE56B;
+    left:100px;
+    top:200px;
+}
+.easy2 {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.525);
+    width: 300px;
+    margin-right: 60px;
+    position:absolute;
+    top:70px;
+    left:900px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.much{
+    font-weight: bold;
+}
+.today{
+    background-color: #C1CD4C;
+    border: none;
+    height:50px;
+    color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.circle {
+    width: 100px;
+    height: 90px;
+    border-radius: 80px;
+    background-color: #EBE9EA;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.us{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.rate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    height: 50px;
+    width:50px
+}
+.fill {
+    height: 400px;
+    background-color: #3c3d7e;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    background-color: #C2CE52;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+}
+.form:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #C2CE52;
+}
+.justify {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.rate {
+    height: 350px;
+    width: 300px;
+    background-color: #F6F6F6;
+}
+.rate span {
+    color: #3c3d7e;
+}
+.triangle {
+    background-color: #C1CD4C;
+    height: 120px;
+    position: relative;
+    margin-top: 30px;
+}
+.small {
+    background-color: #C1CD4C;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 105px;
+}
+.one { left: 500px; background-color: white; }
+.two { left: 700px; background-color: white; }
+.three { left: 900px; background-color: white; }
+.size {
+    width: 50%;
+}
+.picture {
+    height: 300px;
+    width: 400px;
+    background-color: #9eab2b;
+    background-image: url("Images/young-black-woman-using-her-phone-looking-surprised_216356-742.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.saying{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer {
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  
+}
+.testimonial{
+   margin-bottom: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.footer h2 {
+    margin-bottom: 10px;
+}
+.footer p, .footer a {
+    color: white;
+    margin: 5px 0;
+    font-size:.9rem;
+    font-weight:200px
+}
+.footer a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.footer a:hover {
+    text-decoration: underline;
+}

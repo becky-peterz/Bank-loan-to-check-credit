@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="up flex">
+        <div class="logo">
+            <h1>Loan Logo</h1>
+        </div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact us</a>
+            <a href="service.html">Services</a>
+            <a href="index.html">Apply Now</a>
+        </nav>
+    </div>
+    <div class="color">
+        <h1>Credit Worthiness</h1>
+    <form id="credit_form">
+        
+       <p id="answers"></p>
+        <div class="middle">
+            <div>
+                <label for="annual_income">Annual Income:</label>
+            <input type="text" id="annual_income" placeholder="Your annual income" />
+            <span id="annual_Err" style="color:red"></span>
+        </div> 
+        <div>
+            <label for="amount_account">Amount in Account:</label>
+            <input type="text" name="" id="amount_account" placeholder="Amount in the account" >
+           <span id="amount_Err" style="color: red;"></span>
+        </div>
+        <div>
+              
+            <label for="loan_amount"> Loan amount :</label>
+            <input type="text" name="" id="loan_amount" placeholder="Your loan ammount">
+            <span id="loan_Err" style="color: red;"></span>
+        </div>
+        <div>
+            <label for="credithistory"> 6 month credit history (Yes/No):</label>
+            <select id="credithistory">
+                <option value="yes/no">select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+         </div>
+         <div class="flex">
+            <p>Last Deposit Date (Within a month):</p>
+            <input type="checkbox" id="depositdate"/>
+        <input type="date" id="lastdeposit">
+         </div>
+         <div>
+            <label for="lastdate">Last Loan collection date (if above 6 months):</label>
+            <select id="lastdate">
+                <option value="yes/no">select an option</option>
+                <option value="yes1">Yes</option>
+                <option value="no1">No</option>
+            </select>
+         </div>
+         <div>
+            <label for="repayment">Loan repayment Period (Below 6 months):</label>
+            <select id="repayment">
+                <option value="yes/no">select an option</option>
+                <option value="yes2">Yes</option>
+                <option value="no2">No</option>
+            </select>
+         </div>
+        <div>
+            <label for="accounttype">Account Type:</label>
+        <select id="accounttype">
+            <option value="pick">select an option</option>
+            <option value="current">Current</option>
+            <option value="savings">Savings</option>
+        </select>
+        </div>
+  </div> 
+        <button type="submit" class="check">Check credit</button>
+
+        
+    </form>
+    <div >
+       <p id="answers"></p>
+        <h1 id="worthiness" class="worth"></h1>
+        <h1 id="worthines" class="worth1"></h1>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

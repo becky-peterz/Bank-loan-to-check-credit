@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form div{
+   margin-top:20px
+}
+.logo{
+    font-size: 1rem; 
+    font-weight: bold;
+    color: #DAE56B;
+    /* position: absolute; */
+    
+    margin-right: 600px;
+    /* margin-bottom: 80px; */
+}
+.up {
+    height: 50px;
+    background-color: white;
+    /* justify-content: space-between; */
+    /* gap:400px; */
+    /* position: relative; */
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.flex {
+    display: flex;
+}
+select{
+    width:120px;
+}
+.flex{
+    display: flex;
+}
+button{
+    margin-top:20px;
+    padding-top: 10px;
+}
+button{
+    border: 1px solid black
+
+}
+.worth{
+    font-size: 1.3rem;
+    Color: green;
+}
+.worth1{
+    font-size: 1.3rem;
+    Color: red;
+}
+.check{
+    border:none;
+ background-color: #DAE56B;
+ height: 30px;
+ width:120px;
+ font-size: 1rem;
+}
+/* .color{
+
+   background-color: blueviolet;
+    width: 600px
+} */
+/* .middle{
+    display: flex;
+align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
